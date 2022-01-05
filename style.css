@@ -1,3 +1,82 @@
+/*colors: #F87D63, #FFAC2C */
 body{
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 55px;
+}
+h2{
+    font-size: 35px;
+}
+.orange-color {
+    color: #F87D63;
+}
+.section{
+    display: flex;
+    margin-bottom: 5%;
+}
+.welcome{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-color: #FFAC2C;
+    padding: 10px 40px;
+    border-radius: 100px;
+    box-shadow: 0px 5px 15px -4px rgba(0,0,0,0.61);
+}
+p{
+    opacity: 80%;
+}
+.margin-down{
+    margin-bottom: 5%;
+}
+.margin-right{
+    margin-right: 5%;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.margin-left{
+    margin: 2% 5% ;
+}
+.width-40{
+    width: 40%;
+    margin: 0 5%;
+    padding-left: 2%;
+    box-shadow: 5px 7px 40px grey;
+    
+}
+.right-background{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+#full-stack{
+    border-left: 5px solid;
+    border-image: linear-gradient(red, blue) ;
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 5px solid;
+    border-image: linear-gradient(#F87D63, #FFAC2C);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-weight: 700;
+    opacity: 50%;
 }
